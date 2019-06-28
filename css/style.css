@@ -1,0 +1,829 @@
+label
+{
+	color: rgb(0, 174, 239);
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************MENU********************************************************************************/
+/********************************************************************************************************************************************************************/
+#menu
+{
+	display: inline-flex;
+	justify-content: left;
+	align-items: center;
+	background-color: rgb(33, 67, 139);
+}
+
+#menu ul
+{
+	list-style-type: none;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+}
+
+#menu li
+{
+	float: left;
+	width: 200px;
+	padding: 0;
+	text-align: left;
+	margin-top: 20px;
+	margin-right: 40px;
+	/*border: solid 4px red;*/
+
+}
+
+#menu li a
+{
+	text-decoration: none;
+	color: white;
+	padding: 3px;
+	width: 290px;
+}
+
+#menu li a:hover
+{
+	color: rgb(0, 174, 239);
+	transition: 1s;
+}
+
+#menu button
+{
+	color: white;
+	background-color: rgb(33, 67, 139);
+	border: solid 1px white;
+}
+
+#menu button:hover
+{
+	color: rgb(0, 174, 239);
+	border: solid 4px rgb(0, 174, 239);
+	transition: 1s;
+}
+
+
+#menu ul li ul li a
+{
+	color: red;
+}
+
+#langue
+{
+	display: none;
+}
+
+#menu li ul
+{
+	position: absolute;
+}
+
+input
+{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid 1px white;
+	color: white;
+	background-color: rgb(33, 67, 139);
+	margin-left: 0px;
+}
+
+#menu span
+{
+	text-align: left;
+}
+
+.logo
+{
+	margin-left: 0px;
+}
+
+.titre_jim
+{
+	color: white;
+}
+
+.titre_bha
+{
+
+	color: rgb(0, 174, 239);
+}
+
+.titre_particulier
+{
+	color: rgb(0, 174, 239);
+}
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************MENU RECHERCHE.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+.search-box
+{
+	position: absolute;
+	top: 50%;
+	/*left: 50%;*/
+	transform: translate(-50%, -50%);
+	background-color: green;
+	padding: 10px;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+
+.search-box:hover > .search-txt
+{
+	width: 240px;
+	padding: 0 6px;
+}
+
+.search-box:hover > .search-btn
+{
+	background-color: white;
+}
+
+.search-btn
+{
+	color: blue;
+	float: right;
+	width: 40px;
+	/*height: 40px;*/
+	border-radius: 50px;
+	background-color: pink;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.04s;
+}
+
+.search-txt
+{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+
+
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************MENU LEFT********************************************************************************/
+/********************************************************************************************************************************************************************/
+#sideButton
+{
+	height: 500px;
+}
+
+#menu_left
+{
+	height: 500px;
+}
+
+#sideButton button
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 50px;
+	color: rgb(33, 67, 139);
+	background-color: white;
+	border: none;
+}
+
+#menu_left button
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 50px;
+	color: rgb(33, 67, 139);
+	background-color: white;
+	border: none;
+}
+
+#menu_left ul
+{
+	list-style-type: none;
+}
+
+#menu_left li button
+{
+	font-size: 16px;
+	width: 100px;
+	background-color: rgb(33, 67, 139);
+	border: solid 2px rgb(33, 67, 139);
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+#menu_left li button a
+{
+	color: white;
+}
+
+#menu_left li button a:hover
+{
+	color: rgb(0, 174, 239);
+}
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************IMAGES INDEX.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+#sales_pictures
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: solid 0.75px grey;
+}
+
+.column
+{
+  vertical-align: middle;
+  margin: 12px;
+}
+
+.column img
+{
+  padding: 0px;
+  vertical-align: middle;
+  height: 200px;
+  width: 200px;
+}
+
+.detail
+{
+   padding: 0px;
+   vertical-align: middle;
+   width: 200px;
+}
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************INDEX.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+#corps
+{
+	background-color: rgb(229, 229, 229);
+}
+
+#content
+{
+	background-color: white;
+	height: 500px;
+}
+
+#content img
+{
+	width: 600px;
+	margin-top: 40px;
+/*	margin: auto;*/
+}
+
+#content button
+{
+	width: 600px;
+	height: 50px;
+/*	margin: auto;*/
+	text-decoration: none;
+	background-color: rgb(33, 67, 139);
+	border-top: none;
+	border-bottom: none;
+	border-right: solid 80px rgb(0, 174, 239);
+	border-left: solid 80px rgb(0, 174, 239);
+	border-radius: 50px;
+}
+
+#content button:hover
+{
+	border: solid 4px rgb(0, 174, 239);
+	transition: 1s;
+}
+
+#content button a
+{
+	color: white;
+}
+
+#content button a:hover
+{
+	color: rgb(0, 174, 239);
+}
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************INSCRIPTION.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+
+#inscription_content
+{
+	margin-bottom: 20px;
+}
+
+
+
+
+#pas_de_compte
+{
+	margin: auto;
+}
+
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************ARTICLE.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+#titre_article h1
+{
+	margin-top: 30px;
+	color: rgb(33, 67, 139);
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#titre_article h2 a
+{
+	color: rgb(0, 174, 239);
+	font-size: 20px;
+}
+
+#titre_article p a
+{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#titre_article strong
+{
+	color: rgb(0, 174, 239);
+}
+
+#titre_article button
+{
+	margin-top: 30px;
+}
+
+#description_article strong
+{
+	color: rgb(0, 174, 239);
+}
+
+#commentaire
+{
+	margin: auto;
+}
+
+#commentaire h1
+{
+	font-weight: bold;
+	font-size: 30px;
+	color: rgb(33, 67, 139);
+}
+
+#commentaire h2
+{
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(0, 174, 239);
+}
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************OBJET.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+
+#objet_content tr
+{
+	border: solid 4px rgb(33, 67, 139);
+}
+
+#objet_content td
+{
+	width: 200px;
+	text-align: left;
+}
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************APROPOS.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+#apropos_content
+{
+	margin: auto;
+}
+
+#apropos_content b
+{
+	color: rgb(0, 174, 239);
+}
+
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************VENDRE.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+#vendre_content img
+{
+	height: 200px;
+	margin-top: 12px;
+}
+
+#vendre_content select
+{
+	margin-top: 12px;
+}
+
+#vendre_content button
+{
+	margin-bottom: 12px;
+}
+
+#form_vendre
+{
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#pas_connecte
+{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************CONTACT.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+#contact_content img
+{
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 600px;
+}
+
+iframe
+{
+	width: 400px;
+	height: 400px;
+	margin-top: auto;
+}
+
+#localisation ul
+{
+	list-style-type: none;
+}
+
+#localisation i
+{
+	color: rgb(33, 67, 139);
+	font-size: 20px;
+}
+
+#localisation li a
+{
+	color: rgb(33, 67, 139);
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#localisation a
+{
+	font-size: 20px;
+}
+
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************PROFIL.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+#mon_compte h2
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(0, 174, 239);
+	margin-top: 12px;
+}
+
+#mon_compte button
+{
+	margin-bottom: 12px;
+}
+
+#mon_compte table tr th
+{
+	border: solid 4px rgb(33, 67, 139);
+}
+
+#mon_compte table tr td
+{
+	border: solid 4px rgb(33, 67, 139);
+}
+
+#mdp_modifie
+{
+	margin: auto;
+	margin-bottom: 12px;
+	color: rgb(33, 67, 139);
+	font-weight: bold;
+}
+
+#mdp_incorrect
+{
+	margin: auto;
+	margin-bottom: 12px;
+	color: red;
+	font-weight: bold;
+}
+
+#message th
+{
+	width: 230px;
+}
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************PANIER.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+#panier_content
+{
+	margin: auto;
+}
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************RECHERCHE.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+
+#recherche_content
+{
+	margin: auto;
+}
+
+#recherche_content th
+{
+	color: rgb(0, 174, 239);
+}
+
+#recherche_content tr
+{
+	border: solid 4px rgb(33, 67, 139);
+}
+
+#recherche_content td
+{
+	width: 200px;
+	height: 50px;
+	text-align: left;
+}
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************CATEGORIE.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+#article_categorie
+{
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#article_categorie img
+{
+	width: 100px;
+}
+
+#article_categorie tr
+{
+	border: solid 4px rgb(33, 67, 139);
+}
+
+#article_categorie td
+{
+	width: 200px;
+	text-align: center;
+}
+
+#objets_categorie
+{
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#objets_categorie img
+{
+	width: 100px;
+}
+
+#objets_categorie tr
+{
+	border: solid 4px rgb(33, 67, 139);
+}
+
+#objets_categorie td
+{
+	width: 200px;
+	text-align: center;	
+}
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************VENDEURARTICLE.PHP********************************************************************************/
+/********************************************************************************************************************************************************************/
+#vendeurarticle_content
+{
+	margin: auto;
+}
+
+#vendeurarticle_content th
+{
+	color: rgb(0, 174, 239);
+}
+
+#vendeurarticle_content tr
+{
+	border: solid 4px rgb(33, 67, 139);
+}
+
+#vendeurarticle_content td
+{
+	width: 200px;
+	height: 50px;
+	text-align: left;	
+}
+
+/********************************************************************************************************************************************************************/
+/********************************************************************************TITRE********************************************************************************/
+/********************************************************************************************************************************************************************/
+#mon_compte h1, #backoffice_content h1, #panier_content h1, #objet_content h1, #article_categorie h1, #contact_content h1, #apropos_content h1, #vendre_content h1, #inscription_content h1, #connexion_content h1, #objets_categorie h1, #vendeurarticle_content h1, #recherche_content h1
+{
+	color: rgb(33, 67, 139);
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+#backoffice_content h2, #panier_content h2, #objet_content h2, #article_categorie h2, #objets_categorie h2, #vendeurarticle_content h2, #recherche_content h2
+{
+	/*margin-top: 100px;*/
+	font-size: 20px;
+	color: rgb(0, 174, 239);	
+}
+
+footer
+{
+	background-color: rgb(33, 67, 139);
+}
+
+#pied_de_page
+{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-top: 12px;
+}
+
+#pied_de_page ul
+{
+	list-style-type: none;
+}
+
+#pied_de_page li
+{
+	float: left;
+}
+
+#pied_de_page ul li a
+{
+	color: white;
+	margin: 50px;
+}
+
+#pied_de_page ul li a:hover
+{
+	color: rgb(0, 174, 239);
+}
+
+@media screen and (max-width: 992px)
+{
+	#content
+	{
+		height: 400px;
+	}
+
+	#content img
+	{
+		width: 400px;
+		margin-top: 50px;
+		margin: auto;
+	}
+
+	#content button
+	{
+		width: 400px;
+		height: 50px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin: auto;
+		border-right: solid 10px rgb(0, 174, 239);
+		border-left: solid 10px rgb(0, 174, 239);
+	}
+
+	#menu_left
+	{
+		height: 300px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	#menu_left li
+	{
+		float: left;
+		text-align: left;
+	}
+
+		#menu_left li button
+	{
+		font-size: 12px;
+		width: 100px;
+		background-color: rgb(33, 67, 139);
+		border: solid 2px rgb(33, 67, 139);
+		border-radius: 4px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		text-align: left;
+	}
+
+	#sideButton
+	{
+		height: 300px;
+	}
+
+}
+
+@media screen and (max-width: 768px)
+{
+	#content
+	{
+		height: 200px;
+	}
+
+	#content img
+	{
+		width: 200px;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		margin: auto;
+	}
+
+	#content button
+	{
+		width: 200px;
+		margin-top: 0px;
+		height: 40px;
+		margin: auto;
+		margin-top: 0px;
+		border-right: solid 3px rgb(0, 174, 239);
+		border-left: solid 3px rgb(0, 174, 239);
+	}
+
+	#sideButton
+	{
+		height: 100px;
+	}
+
+	#menu_left
+	{
+		height: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#menu_left li
+	{
+		float: left;
+		text-align: left;
+	}
+
+
+	#menu_left li button
+	{
+		font-size: 12px;
+		width: 100px;
+		background-color: rgb(33, 67, 139);
+		border: solid 2px rgb(33, 67, 139);
+		border-radius: 4px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		text-align: left;
+	}
+}
